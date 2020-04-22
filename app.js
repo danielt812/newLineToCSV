@@ -32,9 +32,9 @@ rl.on('line', (input) => {
   if (input) {
     arr.push(input);
   } else {
-    log(chalk.magentaBright('CSV:'), chalk.blue(arr.join(', ')));
+    log(chalk.cyanBright('Preview:'), chalk.blue(arr.join(', ')));
     clipboardy.writeSync(arr.join(', '));
-    log(chalk.cyanBright('\nCSV copied to clipboard!\n'));
+    log(chalk.magentaBright('\nCSV copied to clipboard!\n'));
     rl.close();
   }
 });
