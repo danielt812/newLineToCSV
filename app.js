@@ -8,7 +8,7 @@ figlet.text(
   'New Line to CSV',
   {
     font: 'Big',
-    horizontalLayout: 'default',
+    horizontalLayout: 'fitted',
     verticalLayout: 'default',
   },
   function (err, data) {
