@@ -13,8 +13,7 @@ figlet.text(
   },
   function (err, data) {
     if (err) {
-      log('Something went wrong...');
-      console.dir(err);
+      log(err);
       return;
     }
     log(chalk.magentaBright(data));
