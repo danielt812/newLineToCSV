@@ -5,7 +5,7 @@ const clipboardy = require('clipboardy');
 const log = console.log;
 
 figlet.text(
-  'New Line to CSV',
+  'CSV Utility-CLI',
   {
     font: 'Big',
     horizontalLayout: 'fitted',
